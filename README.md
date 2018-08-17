@@ -1,7 +1,7 @@
 <p align="center">
   <img src="img/pbbioconda.png" alt="pbbioconda logo"/>
 </p>
-<p align="center">PacBio Tools on Bioconda</p>
+<p align="center">PacBio Secondary Analysis Tools on Bioconda</p>
 
 ***
 
