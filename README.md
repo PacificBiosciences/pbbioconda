@@ -23,7 +23,7 @@ For issues with the installation of **conda** or adding the **bioconda** channel
 please refer to the [official bioconda website](https://bioconda.github.io/).
 
 For issues with installed **PacBio binaries through bioconda**, please [create
-a new issue](https://github.com/PacificBiosciences/pbbioconda/issues)!
+a new issue](https://github.com/PacificBiosciences/pbbioconda/issues/new?template=bug_report.md)!
 Our developers will triage your problems internally and reply as soon as possible.
 
 ## Installation
