@@ -20,7 +20,7 @@ provided by PacBio.
 No support via mail to developers.
 
 For issues with the installation of **conda** or adding the **bioconda** channel,
-please refer to the official bioconda website https://bioconda.github.io/.
+please refer to the [official bioconda website](https://bioconda.github.io/).
 
 For issues with installed **PacBio binaries through bioconda**, please [create
 a new issue](https://github.com/PacificBiosciences/pbbioconda/issues)!
@@ -66,10 +66,10 @@ per-record or per-ZMW information
 ## FAQ
 
 ### I can't find tool X, when will it be available on bioconda?
-We can't provide ETAs for currently not available tools.
+We do not provide ETAs for currently not available tools.
 
 ### When will a new version of tool X be available?
-We can't provide ETAs for our release schedule.
+We do not provide ETAs for our release schedule.
 
 ### Will SMRT Link be available on bioconda?
 There are no plans. For the latest SMRT Link release, please refer to
@@ -87,6 +87,13 @@ and bioconda binaries in sync. If you need official ISO-compliant software,
 please use [SMRT Analysis builds](http://www.pacb.com/products-and-services/analytical-software/).
 Bioconda binaries are pre-release versions that adhere to high standards,
 but might generate slightly different output, due to bug fixes and/or new features.
+
+### Which operating systems are supported?
+All packages are available for **64-bit linux**. Some are available for **64-bit MacOS**.
+For details, please study the [table above](#available-packages).
+There are no plans to provide darwin binaries for packages currently missing MacOS.
+There are no plans to provide executables for Windows.
+We do not provide support for WSL (Windows Subsystem for Linux).
 
 ## Disclaimer
 THIS WEBSITE AND CONTENT AND ALL SITE-RELATED SERVICES, INCLUDING ANY DATA, ARE PROVIDED "AS IS," WITH ALL FAULTS, WITH NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY, NON-INFRINGEMENT OR FITNESS FOR A PARTICULAR PURPOSE. YOU ASSUME TOTAL RESPONSIBILITY AND RISK FOR YOUR USE OF THIS SITE, ALL SITE-RELATED SERVICES, AND ANY THIRD PARTY WEBSITES OR APPLICATIONS. NO ORAL OR WRITTEN INFORMATION OR ADVICE SHALL CREATE A WARRANTY OF ANY KIND. ANY REFERENCES TO SPECIFIC PRODUCTS OR SERVICES ON THE WEBSITES DO NOT CONSTITUTE OR IMPLY A RECOMMENDATION OR ENDORSEMENT BY PACIFIC BIOSCIENCES.
