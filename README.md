@@ -62,6 +62,14 @@ Packages can be updated with:
 | [pbmm2](https://github.com/PacificBiosciences/pbmm2/) | Y | Y | A minimap2 frontend for PacBio native data formats |
 | [pbsv](https://github.com/pacificbiosciences/pbsv/) | Y | - | Structural variant analysis |
 
+## Available Combo-Packages
+These combine multiple repos into a single Bioconda package.
+
+| Package | Linux | Mac | Description | Notes |
+| - | - | - | - | - |
+| pb-falcon | Y | N | pypeflow/FALCON/FALCON_unzip | Repos may not be public. |
+| pb-dazzler | Y | Y | our forks of DALIGNER/DAMASKER/DAZZ_DB/DEXTRACTOR | Could conflict with their Bioconda packages. |
+
 **Note:** BAM refers to the PacBio BAM format that includes additional
 per-record or per-ZMW information
 
