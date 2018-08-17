@@ -17,7 +17,7 @@ A clear and concise description of what the bug is.
 Paste the error message / stack.
 
 **To Reproduce**
-Steps to reproduce the behavior. Can you provide a small test dataset for us to reproduce the behavior?
+Steps to reproduce the behavior. Providing a minimal test dataset on which we can reproduce the behavior will generally lead to quicker turnaround time!
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
