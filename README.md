@@ -50,6 +50,7 @@ Packages can be updated with:
 | [genomicconsensus](https://github.com/pacificbiosciences/genomicconsensus/) | Y | - | Polish genome assemblies |
 | [isoseq3](https://github.com/pacificbiosciences/isoseq3/) | Y | - | Scalable de novo isoform discovery |
 | [lima](https://github.com/pacificbiosciences/barcoding/) | Y | - | Demultiplex barcoded samples |
+| [minorseq](https://github.com/PacificBiosciences/minorseq/) | Y | - | Minor Variant Calling and Phasing Tools |
 | [pbbam](https://github.com/pacificbiosciences/pbbam/) | Y | Y | BAM C++ library |
 | [pbccs](https://github.com/pacificbiosciences/unanimity/) | Y | - | Generate consensus sequences from single SMRTbells |
 | [pbcommand](https://github.com/pacificbiosciences/pbcommand/) | Y | Y | Common models, CLI tool contract and SMRT Link service interface |
@@ -57,7 +58,7 @@ Packages can be updated with:
 | [pbcore](https://github.com/pacificbiosciences/pbcore/) | Y | Y | Python library for reading and writing data files |
 | [pbcoretools](https://github.com/pacificbiosciences/pbcoretools/) | Y | Y | CLI tools and add-ons for PacBio's core APIs (incl `dataset`) |
 | [pblaa](https://github.com/pacificbiosciences/pblaa/) | Y | - | Long amplicon analysis |
-| [pbmm2](https://github.com/PacificBiosciences/pbmm2/) | Y | - | A minimap2 frontend for PacBio native data formats |
+| [pbmm2](https://github.com/PacificBiosciences/pbmm2/) | Y | Y | A minimap2 frontend for PacBio native data formats |
 | [pbsv](https://github.com/pacificbiosciences/pbsv/) | Y | - | Structural variant analysis |
 
 **Note:** BAM refers to the PacBio BAM format that includes additional
