@@ -7,14 +7,24 @@
 
 ## Information
 Binaries distributed via [bioconda](https://bioconda.github.io/) are
-pre-release, not ISO compliant, for research only, not for use in diagnostics
-procedures, and only for command-line users.
+pre-release, **not ISO compliant**, for research only, not for use in diagnostics
+procedures, only for command-line users, and possibly newer than the currently
+available [SMRT Analysis builds](http://www.pacb.com/products-and-services/analytical-software/).
 
-Official support is only provided for official and stable
+## Support
+
+Official tech support is only provided for official and stable
 [SMRT Analysis builds](http://www.pacb.com/products-and-services/analytical-software/)
 provided by PacBio.
 
 No support via mail to developers.
+
+For issues with the installation of **conda** or adding the **bioconda** channel,
+please refer to the official bioconda website https://bioconda.github.io/.
+
+For issues with installed **PacBio binaries through bioconda**, please [create
+a new issue](https://github.com/PacificBiosciences/pbbioconda/issues)!
+Our developers will triage your problems internally and reply as soon as possible.
 
 ## Installation
 Information how to install `conda` and add the `bioconda` channel is
@@ -22,7 +32,12 @@ available on https://bioconda.github.io/.
 
 Packages can be installed using following command:
 ```sh
-> conda install package_name
+> conda install -c bioconda package_name
+```
+
+Packages can be updated with:
+```sh
+> conda update package_name
 ```
 
 ## Available Packages
@@ -45,7 +60,33 @@ Packages can be installed using following command:
 | [pbmm2](https://github.com/PacificBiosciences/pbmm2/) | Y | - | A minimap2 frontend for PacBio native data formats |
 | [pbsv](https://github.com/pacificbiosciences/pbsv/) | Y | - | Structural variant analysis |
 
-**Note:** BAM refers to the PacBio BAM format that includes additional information
+**Note:** BAM refers to the PacBio BAM format that includes additional
+per-record or per-ZMW information
+
+## FAQ
+
+### I can't find tool X, when will it be available on bioconda?
+We can't provide ETAs for currently not available tools.
+
+### When will a new version of tool X be available?
+We can't provide ETAs for our release schedule.
+
+### Will SMRT Link be available on bioconda?
+There are no plans. For the latest SMRT Link release, please refer to
+currently available [SMRT Analysis builds](http://www.pacb.com/products-and-services/analytical-software/).
+
+### Why is the official SMRT Tools Guide not in sync with bioconda binaries?
+Official documentation provided by PacBio is for binaries distributed in stable
+[SMRT Analysis builds](http://www.pacb.com/products-and-services/analytical-software/).
+You can click on package names in the table above to get to unofficial,
+best effort documentation.
+
+### Can I get the exact version of the binaries from SMRT Analysis build XY through bioconda?
+There is no effort to keep official [SMRT Analysis builds](http://www.pacb.com/products-and-services/analytical-software/)
+and bioconda binaries in sync. If you need official ISO-compliant software,
+please use [SMRT Analysis builds](http://www.pacb.com/products-and-services/analytical-software/).
+Bioconda binaries are pre-release versions that adhere to high standards,
+but might generate slightly different output, due to bug fixes and/or new features.
 
 ## Disclaimer
 THIS WEBSITE AND CONTENT AND ALL SITE-RELATED SERVICES, INCLUDING ANY DATA, ARE PROVIDED "AS IS," WITH ALL FAULTS, WITH NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY, NON-INFRINGEMENT OR FITNESS FOR A PARTICULAR PURPOSE. YOU ASSUME TOTAL RESPONSIBILITY AND RISK FOR YOUR USE OF THIS SITE, ALL SITE-RELATED SERVICES, AND ANY THIRD PARTY WEBSITES OR APPLICATIONS. NO ORAL OR WRITTEN INFORMATION OR ADVICE SHALL CREATE A WARRANTY OF ANY KIND. ANY REFERENCES TO SPECIFIC PRODUCTS OR SERVICES ON THE WEBSITES DO NOT CONSTITUTE OR IMPLY A RECOMMENDATION OR ENDORSEMENT BY PACIFIC BIOSCIENCES.
