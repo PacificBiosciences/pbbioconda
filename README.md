@@ -58,6 +58,7 @@ Packages can be updated with:
 | [pbcore](https://github.com/pacificbiosciences/pbcore/) | Y | Y | Python library for reading and writing data files |
 | [pbcoretools](https://github.com/pacificbiosciences/pbcoretools/) | Y | Y | CLI tools and add-ons for PacBio's core APIs (incl `dataset`) |
 | [pblaa](https://github.com/pacificbiosciences/pblaa/) | Y | - | Long amplicon analysis |
+| [pbalign](https://github.com/PacificBiosciences/pbalign/) | Y | Y | Python wrapper for BLASR and associated tools |
 | [pbmm2](https://github.com/PacificBiosciences/pbmm2/) | Y | Y | A minimap2 frontend for PacBio native data formats |
 | [pbsv](https://github.com/pacificbiosciences/pbsv/) | Y | - | Structural variant analysis |
 
