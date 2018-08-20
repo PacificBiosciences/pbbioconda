@@ -83,7 +83,7 @@ These include dependencies only. They describe a mutually consistent, well-teste
 
 | Package | Linux | Mac | Description |
 | - | - | - | - |
-| pb-assembly | Y | - | Everything needed to run Falcon and Unzip |
+| [pb-assembly](https://bioconda.github.io/recipes/pb-assembly/README.html) | Y | - | Everything needed to run Falcon and Unzip |
 
 ## FAQ
 
