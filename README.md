@@ -46,6 +46,7 @@ Packages can be updated with:
 * Python packages require version 2.7; python 3 compatibility is tracked [here](https://github.com/PacificBiosciences/pbbioconda/issues/3)
 * BAM refers to the PacBio BAM format that includes additional
 per-record or per-ZMW information
+* Packages might conflict with other bioconda packages not maintained by PacBio
 
 ### Packages
 
@@ -72,10 +73,10 @@ per-record or per-ZMW information
 ### Combo-Packages
 These combine multiple repos into a single bioconda package.
 
-| Package | Linux | Mac | Description | Notes |
-| - | - | - | - | - |
-| [pb-falcon](https://bioconda.github.io/recipes/pb-falcon/README.html) | Y | - | pypeflow/FALCON/FALCON_unzip | Repos may not be public. |
-| [pb-dazzler](https://bioconda.github.io/recipes/pb-dazzler/README.html) | Y | Y | PacBio forks of DALIGNER/DAMASKER/DAZZ_DB/DEXTRACTOR | Conflicts with thegenemyers bioconda packages. |
+| Package | Linux | Mac | Description |
+| - | - | - | - |
+| [pb-falcon](https://bioconda.github.io/recipes/pb-falcon/README.html) | Y | - | pypeflow/FALCON/FALCON_unzip |
+| [pb-dazzler](https://bioconda.github.io/recipes/pb-dazzler/README.html) | Y | Y | PacBio forks of DALIGNER/DAMASKER/DAZZ_DB/DEXTRACTOR |
 
 ### Available Meta-Packages
 These include dependencies only. They describe a mutually consistent, well-tested set of versions of all dependencies.
