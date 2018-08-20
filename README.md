@@ -66,21 +66,29 @@ Packages can be updated with:
 per-record or per-ZMW information
 
 ## Available Combo-Packages
-These combine multiple repos into a single Bioconda package.
+These combine multiple repos into a single bioconda package.
 
 | Package | Linux | Mac | Description | Notes |
 | - | - | - | - | - |
-| [pb-falcon](https://bioconda.github.io/recipes/pb-falcon/README.html) | Y | N | pypeflow/FALCON/FALCON_unzip | Repos may not be public. |
-| [pb-dazzler](https://bioconda.github.io/recipes/pb-dazzler/README.html) | Y | Y | our forks of DALIGNER/DAMASKER/DAZZ_DB/DEXTRACTOR | Could conflict with their Bioconda packages. |
+| [pb-falcon](https://bioconda.github.io/recipes/pb-falcon/README.html) | Y | - | pypeflow/FALCON/FALCON_unzip | Repos may not be public. |
+| [pb-dazzler](https://bioconda.github.io/recipes/pb-dazzler/README.html) | Y | Y | PacBio forks of DALIGNER/DAMASKER/DAZZ_DB/DEXTRACTOR | Conflicts with thegenemyers bioconda packages. |
 
-## Available MetaPackages
+## Available Meta-Packages
 These include dependencies only. They describe a mutually consistent, well-tested set of versions of all dependencies.
 
 | Package | Linux | Mac | Python | Description |
 | - | - | - | - | - |
-| pb-assembly | Y | N | 2.7 | Everything needed to run Falcon and Unzip |
+| pb-assembly | Y | - | 2.7 | Everything needed to run Falcon and Unzip |
 
 ## FAQ
+
+### Where do I get support?
+PacBio tools distributed via bioconda are not covered by any service level
+agreement or the like. As such, please *do not* contact a PacBio Field
+Applications Scientist or PacBio Customer Service for assistance with any
+bioconda releases. We instead provide an
+[issue tracker](https://github.com/PacificBiosciences/pbbioconda/issues)
+for you to report issues.
 
 ### I can't find tool X, when will it be available on bioconda?
 We do not provide ETAs for currently not available tools.
@@ -111,6 +119,14 @@ For details, please study the [table above](#available-packages).
 There are no plans to provide darwin binaries for packages currently missing MacOS.
 There are no plans to provide executables for Windows.
 We do not provide support for WSL (Windows Subsystem for Linux).
+
+### Which version of tool X shall I use, from bioconda or from SMRT Analysis?
+If you need ISO-compliant software that has been fully vetted, you must use our
+official [SMRT Analysis builds](http://www.pacb.com/products-and-services/analytical-software/).
+Otherwise, bioconda binaries (i) are most likely newer, as they are pre-release,
+(ii) possibly produce different output, due to bug fixes, and (iii) are tested
+to a satisfactory level, but not as thoroughly as
+[SMRT Analysis builds](http://www.pacb.com/products-and-services/analytical-software/).
 
 ## Disclaimer
 THIS WEBSITE AND CONTENT AND ALL SITE-RELATED SERVICES, INCLUDING ANY DATA, ARE PROVIDED "AS IS," WITH ALL FAULTS, WITH NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY, NON-INFRINGEMENT OR FITNESS FOR A PARTICULAR PURPOSE. YOU ASSUME TOTAL RESPONSIBILITY AND RISK FOR YOUR USE OF THIS SITE, ALL SITE-RELATED SERVICES, AND ANY THIRD PARTY WEBSITES OR APPLICATIONS. NO ORAL OR WRITTEN INFORMATION OR ADVICE SHALL CREATE A WARRANTY OF ANY KIND. ANY REFERENCES TO SPECIFIC PRODUCTS OR SERVICES ON THE WEBSITES DO NOT CONSTITUTE OR IMPLY A RECOMMENDATION OR ENDORSEMENT BY PACIFIC BIOSCIENCES.
