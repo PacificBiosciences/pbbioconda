@@ -40,7 +40,14 @@ Packages can be updated with:
 > conda update package_name
 ```
 
-## Available Packages
+## Availability
+
+**Notes:**
+* Python packages require version 2.7
+* BAM refers to the PacBio BAM format that includes additional
+per-record or per-ZMW information
+
+### Packages
 
 | Package | Linux | Mac | Description |
 | - | - | - | - |
@@ -62,10 +69,7 @@ Packages can be updated with:
 | [pbmm2](https://github.com/PacificBiosciences/pbmm2/) | Y | Y | A minimap2 frontend for PacBio native data formats |
 | [pbsv](https://github.com/pacificbiosciences/pbsv/) | Y | - | Structural variant analysis |
 
-**Note:** BAM refers to the PacBio BAM format that includes additional
-per-record or per-ZMW information
-
-## Available Combo-Packages
+### Combo-Packages
 These combine multiple repos into a single bioconda package.
 
 | Package | Linux | Mac | Description | Notes |
@@ -73,12 +77,12 @@ These combine multiple repos into a single bioconda package.
 | [pb-falcon](https://bioconda.github.io/recipes/pb-falcon/README.html) | Y | - | pypeflow/FALCON/FALCON_unzip | Repos may not be public. |
 | [pb-dazzler](https://bioconda.github.io/recipes/pb-dazzler/README.html) | Y | Y | PacBio forks of DALIGNER/DAMASKER/DAZZ_DB/DEXTRACTOR | Conflicts with thegenemyers bioconda packages. |
 
-## Available Meta-Packages
+### Available Meta-Packages
 These include dependencies only. They describe a mutually consistent, well-tested set of versions of all dependencies.
 
-| Package | Linux | Mac | Python | Description |
-| - | - | - | - | - |
-| pb-assembly | Y | - | 2.7 | Everything needed to run Falcon and Unzip |
+| Package | Linux | Mac | Description |
+| - | - | - | - |
+| pb-assembly | Y | - | Everything needed to run Falcon and Unzip |
 
 ## FAQ
 
