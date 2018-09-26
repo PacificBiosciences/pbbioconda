@@ -10,6 +10,9 @@ Which operating system and version are you using?
 **Package name**
 Which package / tool is causing the problem? Which version are you using, use `tool --version`. Have you updated to the latest version `conda update package`?
 
+**Conda environment**
+What is the result of `conda list`? (Try to paste that between [triple backticks](https://help.github.com/articles/creating-and-highlighting-code-blocks/).)
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
