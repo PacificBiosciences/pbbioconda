@@ -8,7 +8,7 @@ about: Create a report to help us improve
 Which operating system and version are you using?
 
 **Package name**
-Which package / tool is causing the problem? Which version are you using, use `tool --version`. Have you updated to the latest version `conda update package`?
+Which package / tool is causing the problem? Which version are you using, use `tool --version`. Have you updated to the latest version `conda update package`? Have you updated the complete env by running `conda update --all`? Have you ensured that your channel priorities are set up according to the bioconda recommendations at https://bioconda.github.io/#set-up-channels?
 
 **Conda environment**
 What is the result of `conda list`? (Try to paste that between [triple backticks](https://help.github.com/articles/creating-and-highlighting-code-blocks/).)
