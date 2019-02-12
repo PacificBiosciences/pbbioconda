@@ -26,7 +26,7 @@ Our developers will triage your problems internally and reply as soon as possibl
 
 ## Installation
 Information how to install `conda` and add the `bioconda` channel is
-available on https://bioconda.github.io/.
+available on https://bioconda.github.io/. Please verify that you have set up conda channel priorities according to https://bioconda.github.io/#set-up-channels.
 
 Packages can be installed using following command:
 ```sh
@@ -37,6 +37,12 @@ Packages can be updated with:
 ```sh
 > conda update package_name
 ```
+
+In general, because conda only performs the smallest set of updates in order to satisfy the dependency graph, it is **strongly advised** to always update the environment as a whole afterwards:
+```sh
+> conda update --all
+```
+In order to avoid stale dependencies in the dependency graph.
 
 ## Availability
 
