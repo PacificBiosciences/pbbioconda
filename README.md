@@ -47,7 +47,7 @@ In order to avoid stale dependencies in the dependency graph.
 ## Availability
 
 **Notes:**
-* Python packages require version 2.7; python 3 compatibility is tracked [here](https://github.com/PacificBiosciences/pbbioconda/issues/3)
+* **Python packages require version 2.7; Python 3 is currently not supported! You cannot install PacBio packages alongside python 3-only packages in the same environment!** In order to use python 3-only packages, create a separate conda env.
 * BAM refers to the PacBio BAM format that includes additional
 per-record or per-ZMW information
 * Packages might conflict with other bioconda packages not maintained by PacBio
