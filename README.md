@@ -60,26 +60,26 @@ per-record or per-ZMW information
 | [bax2bam](https://github.com/pacificbiosciences/bax2bam/) | Y | Y | Convert legacy PacBio Bax.H5, Bas.H5, and Ccs.H5 files to BAM |
 | [blasr](https://github.com/pacificbiosciences/blasr/) | Y | Y | The long read aligner |
 | [genomicconsensus](https://github.com/pacificbiosciences/genomicconsensus/) | Y | - | Polish genome assemblies |
-| [isoseq3](https://github.com/pacificbiosciences/isoseq3/) | Y | - | Scalable de novo isoform discovery |
-| [lima](https://github.com/pacificbiosciences/barcoding/) | Y | - | Demultiplex barcoded samples |
+| [isoseq3](https://github.com/pacificbiosciences/isoseq3/) | Y | - | Scalable de novo isoform discovery [(Release Notes)](https://github.com/PacificBiosciences/IsoSeq3/#changelog)  |
+| [lima](https://github.com/pacificbiosciences/barcoding/) | Y | - | Demultiplex barcoded samples [(Release Notes)](https://github.com/pacificbiosciences/barcoding/#full-changelog) |
 | [minorseq](https://github.com/PacificBiosciences/minorseq/) | Y | - | Minor Variant Calling and Phasing Tools |
-| [pbbam](https://github.com/pacificbiosciences/pbbam/) | Y | Y | BAM C++ library |
-| [pbccs](https://github.com/pacificbiosciences/unanimity/) | Y | - | Generate consensus sequences from single SMRTbells |
+| [pbbam](https://github.com/pacificbiosciences/pbbam/) | Y | Y | BAM C++ library [(Release Notes)](https://github.com/PacificBiosciences/pbbam/blob/develop/CHANGELOG.md) |
+| [pbccs](https://github.com/pacificbiosciences/unanimity/) | Y | - | Generate consensus sequences from single SMRTbells [(Release Notes)](https://github.com/pacificbiosciences/unanimity/#changelog)  |
 | [pbcommand](https://github.com/pacificbiosciences/pbcommand/) | Y | Y | Common models, CLI tool contract and SMRT Link service interface |
-| [pbcopper](https://github.com/pacificbiosciences/pbcopper/) | Y | Y | Core C++ library for data structures, algorithms, and utilities |
+| [pbcopper](https://github.com/pacificbiosciences/pbcopper/) | Y | Y | Core C++ library for data structures, algorithms, and utilities [(Release Notes)](https://github.com/PacificBiosciences/pbcopper/blob/develop/CHANGELOG.md)|
 | [pbcore](https://github.com/pacificbiosciences/pbcore/) | Y | Y | Python library for reading and writing data files |
 | [pbcoretools](https://github.com/pacificbiosciences/pbcoretools/) | Y | Y | CLI tools and add-ons for PacBio's core APIs (incl `dataset`) |
 | [pblaa](https://github.com/pacificbiosciences/pblaa/) | Y | - | Long amplicon analysis |
 | [pbalign](https://github.com/PacificBiosciences/pbalign/) | Y | Y | Python wrapper for BLASR and associated tools |
-| [pbmm2](https://github.com/PacificBiosciences/pbmm2/) | Y | Y | A minimap2 frontend for PacBio native data formats |
-| [pbsv](https://github.com/pacificbiosciences/pbsv/) | Y | - | Structural variant analysis |
+| [pbmm2](https://github.com/PacificBiosciences/pbmm2/) | Y | Y | A minimap2 frontend for PacBio native data formats [(Release Notes)](https://github.com/PacificBiosciences/pbmm2/#full-changelog) |
+| [pbsv](https://github.com/pacificbiosciences/pbsv/) | Y | - | Structural variant analysis [(Release Notes)](https://github.com/pacificbiosciences/pbsv/#full-changelog) |
 
 ### Combo-Packages
 These combine multiple repos into a single bioconda package.
 
 | Package | Linux | Mac | Description |
 | - | - | - | - |
-| [pb-falcon](https://bioconda.github.io/recipes/pb-falcon/README.html) | Y | - | pypeflow/FALCON/FALCON_unzip |
+| [pb-falcon](https://bioconda.github.io/recipes/pb-falcon/README.html) | Y | - | pypeflow/FALCON/FALCON_unzip [(Release Notes)](https://github.com/PacificBiosciences/pbbioconda/wiki/Release-notes) |
 | [pb-dazzler](https://bioconda.github.io/recipes/pb-dazzler/README.html) | Y | Y | PacBio forks of DALIGNER/DAMASKER/DAZZ_DB/DEXTRACTOR |
 
 ### Available Meta-Packages
@@ -87,7 +87,7 @@ These include dependencies only. They describe a mutually consistent, well-teste
 
 | Package | Linux | Mac | Description |
 | - | - | - | - |
-| [pb-assembly](https://bioconda.github.io/recipes/pb-assembly/README.html) | Y | - | Everything needed to run Falcon and Unzip |
+| [pb-assembly](https://bioconda.github.io/recipes/pb-assembly/README.html) | Y | - | Everything needed to run Falcon and Unzip [(Release Notes)](https://github.com/PacificBiosciences/pbbioconda/wiki/Release-notes) |
 
 ## FAQ
 
