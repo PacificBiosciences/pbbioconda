@@ -59,7 +59,7 @@ per-record or per-ZMW information
 | [bam2fastx](https://github.com/pacificbiosciences/bam2fastx/) | Y | Y | Convert and split BAM files into fasta.gz and fastq.gz |
 | [bax2bam](https://github.com/pacificbiosciences/bax2bam/) | Y | Y | Convert legacy PacBio Bax.H5, Bas.H5, and Ccs.H5 files to BAM |
 | [blasr](https://github.com/pacificbiosciences/blasr/) | Y | Y | The long read aligner |
-| [genomicconsensus](https://github.com/pacificbiosciences/genomicconsensus/) | Y | - | Polish genome assemblies |
+| [genomicconsensus](https://github.com/pacificbiosciences/genomicconsensus/) | Y | Y | Polish genome assemblies |
 | [isoseq3](https://github.com/pacificbiosciences/isoseq3/) | Y | - | Scalable de novo isoform discovery [(Release Notes)](https://github.com/PacificBiosciences/IsoSeq3/#changelog)  |
 | [lima](https://github.com/pacificbiosciences/barcoding/) | Y | - | Demultiplex barcoded samples [(Release Notes)](https://github.com/pacificbiosciences/barcoding/#full-changelog) |
 | [minorseq](https://github.com/PacificBiosciences/minorseq/) | Y | - | Minor Variant Calling and Phasing Tools |
