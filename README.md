@@ -59,7 +59,6 @@ per-record or per-ZMW information
 | [bam2fastx](https://github.com/pacificbiosciences/bam2fastx/) | Y | Y | Convert and split BAM files into fasta.gz and fastq.gz |
 | [bax2bam](https://github.com/pacificbiosciences/bax2bam/) | Y | Y | Convert legacy PacBio Bax.H5, Bas.H5, and Ccs.H5 files to BAM |
 | [blasr](https://github.com/pacificbiosciences/blasr/) | Y | Y | The long read aligner |
-| [gcpp](https://github.com/PacificBiosciences/gcpp) | Y | - | C++ port of assembly polisher. Replaces variantCaller/arrow [(Release Notes)](https://github.com/PacificBiosciences/gcpp#changelog) |
 | [genomicconsensus](https://github.com/pacificbiosciences/genomicconsensus/) | Y | Y | Polish genome assemblies. Attention: deprecated and replaced by `gcpp` |
 | [isoseq3](https://github.com/pacificbiosciences/isoseq3/) | Y | - | Scalable de novo isoform discovery [(Release Notes)](https://github.com/PacificBiosciences/IsoSeq3/#changelog)  |
 | [lima](https://github.com/pacificbiosciences/barcoding/) | Y | - | Demultiplex barcoded samples [(Release Notes)](https://github.com/pacificbiosciences/barcoding/#full-changelog) |
@@ -72,6 +71,7 @@ per-record or per-ZMW information
 | [pbcoretools](https://github.com/pacificbiosciences/pbcoretools/) | Y | Y | CLI tools and add-ons for PacBio's core APIs (incl `dataset`) |
 | [pblaa](https://github.com/pacificbiosciences/pblaa/) | Y | - | Long amplicon analysis |
 | [pbalign](https://github.com/PacificBiosciences/pbalign/) | Y | Y | Python wrapper for BLASR and associated tools |
+| [pbgcpp](https://github.com/PacificBiosciences/gcpp) | Y | - | C++ port of assembly polisher. Replaces variantCaller/arrow [(Release Notes)](https://github.com/PacificBiosciences/gcpp#changelog) |
 | [pbmm2](https://github.com/PacificBiosciences/pbmm2/) | Y | Y | A minimap2 frontend for PacBio native data formats [(Release Notes)](https://github.com/PacificBiosciences/pbmm2/#full-changelog) |
 | [pbsv](https://github.com/pacificbiosciences/pbsv/) | Y | - | Structural variant analysis [(Release Notes)](https://github.com/pacificbiosciences/pbsv/#full-changelog) |
 | [recalladapters](https://github.com/pacificbiosciences/recalladapters/) | Y | - | Recall adapters [(Release Notes)](https://github.com/pacificbiosciences/recalladapters/#full-changelog) |
