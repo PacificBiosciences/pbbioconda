@@ -26,7 +26,7 @@ Our developers will triage your problems internally and reply as soon as possibl
 
 ## Installation
 Information how to install `conda` and add the `bioconda` channel is
-available on https://bioconda.github.io/. Please verify that you have set up conda channel priorities according to [set up conda channels](https://bioconda.github.io/user/install.html#set-up-channels). We **strongly recommend you use Miniconda with the Python 2.7** backend, as PacBio packages are not Python 3 compatible yet.
+available on https://bioconda.github.io/. Please verify that you have set up conda channel priorities according to [set up conda channels](https://bioconda.github.io/user/install.html#set-up-channels).
 
 Packages can be installed using following command:
 ```sh
