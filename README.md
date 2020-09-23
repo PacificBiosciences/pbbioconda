@@ -63,15 +63,16 @@ per-record or per-ZMW information
 | [isoseq3](https://github.com/pacificbiosciences/isoseq3/) | Y | - | Scalable de novo isoform discovery [(Release Notes)](https://github.com/PacificBiosciences/IsoSeq3/#changelog)  |
 | [lima](https://github.com/pacificbiosciences/barcoding/) | Y | - | Demultiplex barcoded samples [(Release Notes)](https://github.com/pacificbiosciences/barcoding/#full-changelog) |
 | [minorseq](https://github.com/PacificBiosciences/minorseq/) | Y | - | Minor Variant Calling and Phasing Tools |
+| [pbalign](https://github.com/PacificBiosciences/pbalign/) | Y | Y | Python wrapper for BLASR and associated tools |
 | [pbbam](https://github.com/pacificbiosciences/pbbam/) | Y | Y | BAM C++ library [(Release Notes)](https://github.com/PacificBiosciences/pbbam/blob/develop/CHANGELOG.md) |
-| [pbccs](https://github.com/pacificbiosciences/unanimity/) | Y | - | Generate consensus sequences from single SMRTbells [(Release Notes)](https://github.com/pacificbiosciences/unanimity/#changelog)  |
+| [pbccs](https://github.com/pacificbiosciences/unanimity/) | Y | - | Generate Highly Accurate Single-Molecule Consensus Reads (HiFi Reads) [(Release Notes)](https://ccs.how/changelog)  |
 | [pbcommand](https://github.com/pacificbiosciences/pbcommand/) | Y | Y | Common models, CLI tool contract and SMRT Link service interface |
 | [pbcopper](https://github.com/pacificbiosciences/pbcopper/) | Y | Y | Core C++ library for data structures, algorithms, and utilities [(Release Notes)](https://github.com/PacificBiosciences/pbcopper/blob/develop/CHANGELOG.md)|
 | [pbcore](https://github.com/pacificbiosciences/pbcore/) | Y | Y | Python library for reading and writing data files |
 | [pbcoretools](https://github.com/pacificbiosciences/pbcoretools/) | Y | Y | CLI tools and add-ons for PacBio's core APIs (incl `dataset`) |
-| [pblaa](https://github.com/pacificbiosciences/pblaa/) | Y | - | Long amplicon analysis |
-| [pbalign](https://github.com/PacificBiosciences/pbalign/) | Y | Y | Python wrapper for BLASR and associated tools |
 | [pbgcpp](https://github.com/PacificBiosciences/gcpp) | Y | - | C++ port of assembly polisher. Replaces variantCaller/arrow [(Release Notes)](https://github.com/PacificBiosciences/gcpp#changelog) |
+| [pblaa](https://github.com/pacificbiosciences/pblaa/) | Y | - | Long amplicon analysis |
+| [pbmarkdup](https://github.com/PacificBiosciences/pbmm2/) | Y | - | Mark duplicate reads from PacBio sequencing of an amplified library [(Release Notes)](https://github.com/PacificBiosciences/pbmarkdup/#changelog) |
 | [pbmm2](https://github.com/PacificBiosciences/pbmm2/) | Y | Y | A minimap2 frontend for PacBio native data formats [(Release Notes)](https://github.com/PacificBiosciences/pbmm2/#full-changelog) |
 | [pbsv](https://github.com/pacificbiosciences/pbsv/) | Y | - | Structural variant analysis [(Release Notes)](https://github.com/pacificbiosciences/pbsv/#full-changelog) |
 | [recalladapters](https://github.com/pacificbiosciences/recalladapters/) | Y | - | Recall adapters [(Release Notes)](https://github.com/pacificbiosciences/recalladapters/#full-changelog) |
