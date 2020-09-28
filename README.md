@@ -72,7 +72,7 @@ per-record or per-ZMW information
 | [pbcoretools](https://github.com/pacificbiosciences/pbcoretools/) | Y | Y | CLI tools and add-ons for PacBio's core APIs (incl `dataset`) |
 | [pbgcpp](https://github.com/PacificBiosciences/gcpp) | Y | - | C++ port of assembly polisher. Replaces variantCaller/arrow [(Release Notes)](https://github.com/PacificBiosciences/gcpp#changelog) |
 | [pblaa](https://github.com/pacificbiosciences/pblaa/) | Y | - | Long amplicon analysis |
-| [pbmarkdup](https://github.com/PacificBiosciences/pbmm2/) | Y | - | Mark duplicate reads from PacBio sequencing of an amplified library [(Release Notes)](https://github.com/PacificBiosciences/pbmarkdup/#changelog) |
+| [pbmarkdup](https://github.com/PacificBiosciences/pbmarkdup/) | Y | - | Mark duplicate reads from PacBio sequencing of an amplified library [(Release Notes)](https://github.com/PacificBiosciences/pbmarkdup/#changelog) |
 | [pbmm2](https://github.com/PacificBiosciences/pbmm2/) | Y | Y | A minimap2 frontend for PacBio native data formats [(Release Notes)](https://github.com/PacificBiosciences/pbmm2/#full-changelog) |
 | [pbsv](https://github.com/pacificbiosciences/pbsv/) | Y | - | Structural variant analysis [(Release Notes)](https://github.com/pacificbiosciences/pbsv/#full-changelog) |
 | [recalladapters](https://github.com/pacificbiosciences/recalladapters/) | Y | - | Recall adapters [(Release Notes)](https://github.com/pacificbiosciences/recalladapters/#full-changelog) |
