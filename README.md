@@ -24,6 +24,9 @@ For issues with installed **PacBio binaries through bioconda**, please [create
 a new issue](https://github.com/PacificBiosciences/pbbioconda/issues/new?template=bug_report.md)!
 Our developers will triage your problems internally and reply as soon as possible.
 
+## File sharing
+If required to share a file for easier troubleshooting, please use [PacBio's file drop-off](https://portal.pacificbiosciences.com/verify). You do not need a "request code". Enter your name and mail to receive a drop-off link. Once received via mail, you will be forwarded to your personal drop-off page, where you will be asked to enter a PacBio recipient. Please enter bioconda-upload@pacb.com and proceed to upload your files. More info about [file transfer security](https://portal.pacificbiosciences.com/security).
+
 ## Installation
 Information how to install `conda` and add the `bioconda` channel is
 available on https://bioconda.github.io/. Please verify that you have set up conda channel priorities according to [set up conda channels](https://bioconda.github.io/user/install.html#set-up-channels).
