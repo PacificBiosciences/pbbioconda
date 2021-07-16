@@ -65,7 +65,7 @@ per-record or per-ZMW information
 | [extracthifi](https://github.com/PacificBiosciences/extracthifi/) | Y | - | Extract HiFi reads from full CCS output |
 | [genomicconsensus](https://github.com/pacificbiosciences/genomicconsensus/) | Y | Y | Polish genome assemblies. Attention: deprecated and replaced by `gcpp` |
 | [isoseq3](https://github.com/pacificbiosciences/isoseq3/) | Y | - | Scalable de novo isoform discovery [(Release Notes)](https://github.com/PacificBiosciences/IsoSeq3/#changelog)  |
-| [lima](https://github.com/pacificbiosciences/barcoding/) | Y | - | Demultiplex barcoded samples [(Release Notes)](https://github.com/pacificbiosciences/barcoding/#full-changelog) |
+| [lima](https://github.com/pacificbiosciences/barcoding/) | Y | - | Demultiplex barcoded samples [(Release Notes)](https://lima.how/changelog.html) |
 | [minorseq](https://github.com/PacificBiosciences/minorseq/) | Y | - | Minor Variant Calling and Phasing Tools |
 | [pbaa](https://github.com/PacificBiosciences/pbAA/) | Y | Y | HiFi specific Amplicon Analysis |
 | [pbalign](https://github.com/PacificBiosciences/pbalign/) | Y | Y | Python wrapper for BLASR and associated tools |
