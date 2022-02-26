@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/pbbioconda.png" alt="pbbioconda logo"/>
+  <img src="img/pacbio-bioconda.png" alt="pbbioconda logo"/>
 </p>
 <p align="center">PacBio Secondary Analysis Tools on Bioconda</p>
 
