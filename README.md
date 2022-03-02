@@ -79,7 +79,7 @@ per-record or per-ZMW information
 | [pbipa](https://github.com/PacificBiosciences/pbipa) | Y | - | Construct very contiguous, high quality de novo genome assemblies using the IPA HiFi assembler. [(Release Notes)](https://github.com/PacificBiosciences/pbipa/blob/master/CHANGELOG.md)  |
 | [pblaa](https://github.com/pacificbiosciences/pblaa/) | Y | - | Long amplicon analysis |
 | [pbmarkdup](https://github.com/PacificBiosciences/pbmarkdup/) | Y | - | Mark duplicate reads from PacBio sequencing of an amplified library [(Release Notes)](https://github.com/PacificBiosciences/pbmarkdup/#changelog) |
-| [pbmm2](https://github.com/PacificBiosciences/pbmm2/) | Y | Y | A minimap2 frontend for PacBio native data formats [(Release Notes)](https://github.com/PacificBiosciences/pbmm2/#full-changelog) |
+| [pbmm2](https://github.com/PacificBiosciences/pbmm2/) | Y | - | A minimap2 frontend for PacBio native data formats [(Release Notes)](https://github.com/PacificBiosciences/pbmm2/#full-changelog) |
 | [pbskera](https://github.com/pacificbiosciences/skera/) | Y | - | Read deconcatination [(Release Notes)](https://pacificbiosciences.github.io/skera/changelog.html)
 | [pbsv](https://github.com/pacificbiosciences/pbsv/) | Y | - | Structural variant analysis [(Release Notes)](https://github.com/pacificbiosciences/pbsv/#full-changelog) |
 | [recalladapters](https://github.com/pacificbiosciences/recalladapters/) | Y | - | Recall adapters [(Release Notes)](https://github.com/pacificbiosciences/recalladapters/#full-changelog) |
