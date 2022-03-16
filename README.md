@@ -60,15 +60,12 @@ per-record or per-ZMW information
 | Package | Linux | Mac | Description |
 | - | - | - | - |
 | [bam2fastx](https://github.com/pacificbiosciences/bam2fastx/) | Y | Y | Convert and split BAM files into fasta.gz and fastq.gz |
-| [bax2bam](https://github.com/pacificbiosciences/bax2bam/) | Y | Y | Convert legacy PacBio Bax.H5, Bas.H5, and Ccs.H5 files to BAM |
-| [blasr](https://github.com/pacificbiosciences/blasr/) | Y | Y | The long read aligner |
 | [extracthifi](https://github.com/PacificBiosciences/extracthifi/) | Y | - | Extract HiFi reads from full CCS output |
 | [genomicconsensus](https://github.com/pacificbiosciences/genomicconsensus/) | Y | Y | Polish genome assemblies. Attention: deprecated and replaced by `gcpp` |
 | [isoseq3](https://github.com/pacificbiosciences/isoseq3/) | Y | - | Scalable de novo isoform discovery [(Release Notes)](https://github.com/PacificBiosciences/IsoSeq3/#changelog)  |
 | [lima](https://github.com/pacificbiosciences/barcoding/) | Y | - | Demultiplex barcoded samples [(Release Notes)](https://lima.how/changelog.html) |
 | [minorseq](https://github.com/PacificBiosciences/minorseq/) | Y | - | Minor Variant Calling and Phasing Tools |
 | [pbaa](https://github.com/PacificBiosciences/pbAA/) | Y | Y | HiFi specific Amplicon Analysis |
-| [pbalign](https://github.com/PacificBiosciences/pbalign/) | Y | Y | Python wrapper for BLASR and associated tools |
 | [pbbam](https://github.com/pacificbiosciences/pbbam/) | Y | Y | BAM C++ library [(Release Notes)](https://github.com/PacificBiosciences/pbbam/blob/develop/CHANGELOG.md) |
 | [pbccs](https://github.com/pacificbiosciences/unanimity/) | Y | - | Generate Highly Accurate Single-Molecule Consensus Reads (HiFi Reads) [(Release Notes)](https://ccs.how/changelog)  |
 | [pbcommand](https://github.com/pacificbiosciences/pbcommand/) | Y | Y | Common models, CLI tool contract and SMRT Link service interface |
