@@ -60,12 +60,11 @@ per-record or per-ZMW information
 | Package | Linux | Mac | Description |
 | - | - | - | - |
 | [bam2fastx](https://github.com/pacificbiosciences/bam2fastx/) | Y | Y | Convert and split BAM files into fasta.gz and fastq.gz |
-| [extracthifi](https://github.com/PacificBiosciences/extracthifi/) | Y | - | Extract HiFi reads from full CCS output |
 | [isoseq3](https://github.com/pacificbiosciences/isoseq3/) | Y | - | Scalable de novo isoform discovery [(Release Notes)](https://github.com/PacificBiosciences/IsoSeq3/#changelog)  |
 | [lima](https://github.com/pacificbiosciences/barcoding/) | Y | - | Demultiplex barcoded samples [(Release Notes)](https://lima.how/changelog.html) |
 | [minorseq](https://github.com/PacificBiosciences/minorseq/) | Y | - | Minor Variant Calling and Phasing Tools |
 | [pbaa](https://github.com/PacificBiosciences/pbAA/) | Y | Y | HiFi specific Amplicon Analysis |
-| [pbbam](https://github.com/pacificbiosciences/pbbam/) | Y | Y | BAM C++ library [(Release Notes)](https://github.com/PacificBiosciences/pbbam/blob/develop/CHANGELOG.md) |
+| [pbbam](https://github.com/pacificbiosciences/pbbam/) | Y | Y | BAM C++ library, tools are now in [**pbtk**](https://github.com/pacificbiosciences/pbtk/) [(Release Notes)](https://github.com/PacificBiosciences/pbbam/blob/develop/CHANGELOG.md) |
 | [pbccs](https://github.com/pacificbiosciences/unanimity/) | Y | - | Generate Highly Accurate Single-Molecule Consensus Reads (HiFi Reads) [(Release Notes)](https://ccs.how/changelog)  |
 | [pbcommand](https://github.com/pacificbiosciences/pbcommand/) | Y | Y | Common models, CLI tool contract and SMRT Link service interface |
 | [pbcopper](https://github.com/pacificbiosciences/pbcopper/) | Y | Y | Core C++ library for data structures, algorithms, and utilities [(Release Notes)](https://github.com/PacificBiosciences/pbcopper/blob/develop/CHANGELOG.md)|
@@ -79,9 +78,9 @@ per-record or per-ZMW information
 | [pbpigeon](https://github.com/pacificbiosciences/pigeon/) | Y | - | PacBio transcript toolkit [(Release Notes)](https://isoseq.how/classification/pigeon-changelog.html)
 | [pbskera](https://github.com/pacificbiosciences/skera/) | Y | - | Read deconcatination [(Release Notes)](https://pacificbiosciences.github.io/skera/changelog.html)
 | [pbsv](https://github.com/pacificbiosciences/pbsv/) | Y | - | Structural variant analysis [(Release Notes)](https://github.com/pacificbiosciences/pbsv/#full-changelog) |
+| [pbtk](https://github.com/pacificbiosciences/pbtk/) | Y | - | PacBio BAM toolkit contains `ccs-kinetics-bystrandify`, `extracthifi`, `pbindex`, `pbindexdump`, `pbmerge`, `zmwfilter` [(Release Notes)](https://github.com/PacificBiosciences/pbtk#changelog) |
 | [recalladapters](https://github.com/pacificbiosciences/recalladapters/) | Y | - | Recall adapters [(Release Notes)](https://github.com/pacificbiosciences/recalladapters/#full-changelog) |
 | [trgt](https://github.com/pacificBiosciences/trgt/) | Y | - | Tandem repeat genotyping and visualization [(Release Notes)](https://github.com/pacificbiosciences/trgt/#full-changelog) |
-| [zmwfilter](https://github.com/PacificBiosciences/zmwfilter/) | Y | - | Filter reads on ZMW ID(s) |
 
 ### Combo-Packages
 These combine multiple repos into a single bioconda package.
@@ -148,4 +147,4 @@ We do not provide support for WSL (Windows Subsystem for Linux).
 
 THIS WEBSITE AND CONTENT AND ALL SITE-RELATED SERVICES, INCLUDING ANY DATA, ARE PROVIDED "AS IS," WITH ALL FAULTS, WITH NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY, NON-INFRINGEMENT OR FITNESS FOR A PARTICULAR PURPOSE. YOU ASSUME TOTAL RESPONSIBILITY AND RISK FOR YOUR USE OF THIS SITE, ALL SITE-RELATED SERVICES, AND ANY THIRD PARTY WEBSITES OR APPLICATIONS. NO ORAL OR WRITTEN INFORMATION OR ADVICE SHALL CREATE A WARRANTY OF ANY KIND. ANY REFERENCES TO SPECIFIC PRODUCTS OR SERVICES ON THE WEBSITES DO NOT CONSTITUTE OR IMPLY A RECOMMENDATION OR ENDORSEMENT BY PACIFIC BIOSCIENCES.
 
- [![Analytics](https://ga-beacon.appspot.com/G-0GE7FEF6BD/pbbioconda/blob/master/README.md)](https://github.com/PacificBiosciences/pbbioconda) 
+ [![Analytics](https://ga-beacon.appspot.com/G-0GE7FEF6BD/pbbioconda/blob/master/README.md)](https://github.com/PacificBiosciences/pbbioconda)
