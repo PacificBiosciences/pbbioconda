@@ -59,7 +59,6 @@ per-record or per-ZMW information
 
 | Package | Linux | Mac | Description |
 | - | - | - | - |
-| [bam2fastx](https://github.com/pacificbiosciences/bam2fastx/) | Y | Y | Convert and split BAM files into fasta.gz and fastq.gz |
 | [isoseq3](https://github.com/pacificbiosciences/isoseq3/) | Y | - | Scalable de novo isoform discovery [(Release Notes)](https://github.com/PacificBiosciences/IsoSeq3/#changelog)  |
 | [lima](https://github.com/pacificbiosciences/barcoding/) | Y | - | Demultiplex barcoded samples [(Release Notes)](https://lima.how/changelog.html) |
 | [pbaa](https://github.com/PacificBiosciences/pbAA/) | Y | Y | HiFi specific Amplicon Analysis |
@@ -75,7 +74,7 @@ per-record or per-ZMW information
 | [pbpigeon](https://github.com/pacificbiosciences/pigeon/) | Y | - | PacBio transcript toolkit [(Release Notes)](https://isoseq.how/classification/pigeon-changelog.html)
 | [pbskera](https://github.com/pacificbiosciences/skera/) | Y | - | Read deconcatination [(Release Notes)](https://pacificbiosciences.github.io/skera/changelog.html)
 | [pbsv](https://github.com/pacificbiosciences/pbsv/) | Y | - | Structural variant analysis [(Release Notes)](https://github.com/pacificbiosciences/pbsv/#full-changelog) |
-| [pbtk](https://github.com/pacificbiosciences/pbtk/) | Y | - | PacBio BAM toolkit contains `ccs-kinetics-bystrandify`, `extracthifi`, `pbindex`, `pbindexdump`, `pbmerge`, `zmwfilter` [(Release Notes)](https://github.com/PacificBiosciences/pbtk#changelog) |
+| [pbtk](https://github.com/pacificbiosciences/pbtk/) | Y | - | PacBio BAM toolkit contains `bam2fasta`, `bam2fastq`, `ccs-kinetics-bystrandify`, `extracthifi`, `pbindex`, `pbindexdump`, `pbmerge`, `zmwfilter` [(Release Notes)](https://github.com/PacificBiosciences/pbtk#changelog) |
 | [recalladapters](https://github.com/pacificbiosciences/recalladapters/) | Y | - | Recall adapters [(Release Notes)](https://github.com/pacificbiosciences/recalladapters/#full-changelog) |
 | [trgt](https://github.com/pacificBiosciences/trgt/) | Y | - | Tandem repeat genotyping and visualization [(Release Notes)](https://github.com/pacificbiosciences/trgt/#full-changelog) |
 
