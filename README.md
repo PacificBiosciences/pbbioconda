@@ -64,14 +64,12 @@ per-record or per-ZMW information
 | [lima](https://github.com/pacificbiosciences/barcoding/) | Y | - | Demultiplex barcoded samples [(Release Notes)](https://lima.how/changelog.html) |
 | [pbaa](https://github.com/PacificBiosciences/pbAA/) | Y | Y | HiFi specific Amplicon Analysis |
 | [pbbam](https://github.com/pacificbiosciences/pbbam/) | Y | Y | BAM C++ library, tools are now in [**pbtk**](https://github.com/pacificbiosciences/pbtk/) [(Release Notes)](https://github.com/PacificBiosciences/pbbam/blob/develop/CHANGELOG.md) |
-| [pbccs](https://github.com/pacificbiosciences/unanimity/) | Y | - | Generate Highly Accurate Single-Molecule Consensus Reads (HiFi Reads) [(Release Notes)](https://ccs.how/changelog)  |
+| [pbccs](https://github.com/pacificbiosciences/unanimity/) | Y | - | Generate HiFi reads for Sequel II [(Release Notes)](https://ccs.how/changelog)  |
 | [pbcommand](https://github.com/pacificbiosciences/pbcommand/) | Y | Y | Common models, CLI tool contract and SMRT Link service interface |
 | [pbcopper](https://github.com/pacificbiosciences/pbcopper/) | Y | Y | Core C++ library for data structures, algorithms, and utilities [(Release Notes)](https://github.com/PacificBiosciences/pbcopper/blob/develop/CHANGELOG.md)|
 | [pbcore](https://github.com/pacificbiosciences/pbcore/) | Y | Y | Python library for reading and writing data files |
 | [pbcoretools](https://github.com/pacificbiosciences/pbcoretools/) | Y | Y | CLI tools and add-ons for PacBio's core APIs (incl `dataset`) |
-| [pbgcpp](https://github.com/PacificBiosciences/gcpp) | Y | - | C++ port of assembly polisher. Replaces variantCaller/arrow [(Release Notes)](https://github.com/PacificBiosciences/gcpp#changelog) |
 | [pbipa](https://github.com/PacificBiosciences/pbipa) | Y | - | Construct very contiguous, high quality de novo genome assemblies using the IPA HiFi assembler. [(Release Notes)](https://github.com/PacificBiosciences/pbipa/blob/master/CHANGELOG.md)  |
-| [pblaa](https://github.com/pacificbiosciences/pblaa/) | Y | - | Long amplicon analysis |
 | [pbmarkdup](https://github.com/PacificBiosciences/pbmarkdup/) | Y | - | Mark duplicate reads from PacBio sequencing of an amplified library [(Release Notes)](https://github.com/PacificBiosciences/pbmarkdup/#changelog) |
 | [pbmm2](https://github.com/PacificBiosciences/pbmm2/) | Y | - | A minimap2 frontend for PacBio native data formats [(Release Notes)](https://github.com/PacificBiosciences/pbmm2/#full-changelog) |
 | [pbpigeon](https://github.com/pacificbiosciences/pigeon/) | Y | - | PacBio transcript toolkit [(Release Notes)](https://isoseq.how/classification/pigeon-changelog.html)
@@ -87,7 +85,6 @@ These combine multiple repos into a single bioconda package.
 | Package | Linux | Mac | Description |
 | - | - | - | - |
 | [pb-falcon](https://bioconda.github.io/recipes/pb-falcon/README.html) | Y | - | pypeflow/FALCON/FALCON_unzip [(Release Notes)](https://github.com/PacificBiosciences/pbbioconda/wiki/Release-notes) |
-| [pb-dazzler](https://bioconda.github.io/recipes/pb-dazzler/README.html) | Y | Y | PacBio forks of DALIGNER/DAMASKER/DAZZ_DB/DEXTRACTOR |
 
 ### Available Meta-Packages
 These include dependencies only. They describe a mutually consistent, well-tested set of versions of all dependencies.
