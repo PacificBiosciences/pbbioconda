@@ -77,6 +77,7 @@ per-record or per-ZMW information
 | [pbtk](https://github.com/pacificbiosciences/pbtk/) | Y | - | PacBio BAM toolkit contains `bam2fasta`, `bam2fastq`, `ccs-kinetics-bystrandify`, `extracthifi`, `pbindex`, `pbindexdump`, `pbmerge`, `zmwfilter` [(Release Notes)](https://github.com/PacificBiosciences/pbtk#changelog) |
 | [recalladapters](https://github.com/pacificbiosciences/recalladapters/) | Y | - | Recall adapters [(Release Notes)](https://github.com/pacificbiosciences/recalladapters/#full-changelog) |
 | [trgt](https://github.com/pacificBiosciences/trgt/) | Y | - | Tandem repeat genotyping and visualization [(Release Notes)](https://github.com/pacificbiosciences/trgt/#full-changelog) |
+| [pbfusion](https://github.com/pacificBiosciences/pbfusion/) | Y | - | A fusion gene detection tool for all Iso-Seq data types [(Release Notes)](https://github.com/PacificBiosciences/pbfusion#changelog) |
 
 ### Combo-Packages
 These combine multiple repos into a single bioconda package.
