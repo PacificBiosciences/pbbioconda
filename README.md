@@ -68,6 +68,7 @@ per-record or per-ZMW information
 | [pbcopper](https://github.com/pacificbiosciences/pbcopper/) | Y | Y | Core C++ library for data structures, algorithms, and utilities [(Release Notes)](https://github.com/PacificBiosciences/pbcopper/blob/develop/CHANGELOG.md)|
 | [pbcore](https://github.com/pacificbiosciences/pbcore/) | Y | Y | Python library for reading and writing data files |
 | [pbcoretools](https://github.com/pacificbiosciences/pbcoretools/) | Y | Y | CLI tools and add-ons for PacBio's core APIs (incl `dataset`) |
+| [pbfusion](https://github.com/pacificBiosciences/pbfusion/) | Y | - | A fusion gene detection tool for all Iso-Seq data types [(Release Notes)](https://github.com/PacificBiosciences/pbfusion#changelog) |
 | [pbipa](https://github.com/PacificBiosciences/pbipa) | Y | - | Construct very contiguous, high quality de novo genome assemblies using the IPA HiFi assembler. [(Release Notes)](https://github.com/PacificBiosciences/pbipa/blob/master/CHANGELOG.md)  |
 | [pbmarkdup](https://github.com/PacificBiosciences/pbmarkdup/) | Y | - | Mark duplicate reads from PacBio sequencing of an amplified library [(Release Notes)](https://github.com/PacificBiosciences/pbmarkdup/#changelog) |
 | [pbmm2](https://github.com/PacificBiosciences/pbmm2/) | Y | - | A minimap2 frontend for PacBio native data formats [(Release Notes)](https://github.com/PacificBiosciences/pbmm2/#full-changelog) |
@@ -77,7 +78,6 @@ per-record or per-ZMW information
 | [pbtk](https://github.com/pacificbiosciences/pbtk/) | Y | - | PacBio BAM toolkit contains `bam2fasta`, `bam2fastq`, `ccs-kinetics-bystrandify`, `extracthifi`, `pbindex`, `pbindexdump`, `pbmerge`, `zmwfilter` [(Release Notes)](https://github.com/PacificBiosciences/pbtk#changelog) |
 | [recalladapters](https://github.com/pacificbiosciences/recalladapters/) | Y | - | Recall adapters [(Release Notes)](https://github.com/pacificbiosciences/recalladapters/#full-changelog) |
 | [trgt](https://github.com/pacificBiosciences/trgt/) | Y | - | Tandem repeat genotyping and visualization [(Release Notes)](https://github.com/pacificbiosciences/trgt/#full-changelog) |
-| [pbfusion](https://github.com/pacificBiosciences/pbfusion/) | Y | - | A fusion gene detection tool for all Iso-Seq data types [(Release Notes)](https://github.com/PacificBiosciences/pbfusion#changelog) |
 
 ### Combo-Packages
 These combine multiple repos into a single bioconda package.
