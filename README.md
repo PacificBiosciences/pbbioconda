@@ -60,6 +60,7 @@ per-record or per-ZMW information
 | Package | Linux | Mac | Description |
 | - | - | - | - |
 | [isoseq3](https://github.com/pacificbiosciences/isoseq3/) | Y | - | Scalable de novo isoform discovery [(Release Notes)](https://github.com/PacificBiosciences/IsoSeq3/#changelog)  |
+| [jasmine](https://github.com/pacificbiosciences/jasmine/) | Y | - | Predict 5mC in PacBio HiFi reads [(Release Notes)](https://github.com/PacificBiosciences/jasmine#changelog) |
 | [lima](https://github.com/pacificbiosciences/barcoding/) | Y | - | Demultiplex barcoded samples [(Release Notes)](https://lima.how/changelog.html) |
 | [pbaa](https://github.com/PacificBiosciences/pbAA/) | Y | Y | HiFi specific Amplicon Analysis |
 | [pbbam](https://github.com/pacificbiosciences/pbbam/) | Y | Y | BAM C++ library, tools are now in [**pbtk**](https://github.com/pacificbiosciences/pbtk/) [(Release Notes)](https://github.com/PacificBiosciences/pbbam/blob/develop/CHANGELOG.md) |
