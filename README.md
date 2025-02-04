@@ -57,7 +57,6 @@ per-record or per-ZMW information
 | Package | Linux | Mac | Description |
 | - | - | - | - |
 | [isoseq](https://github.com/pacificbiosciences/isoseq/) | Y | - | Scalable de novo isoform discovery [(Release Notes)](https://github.com/PacificBiosciences/IsoSeq/#changelog)  |
-| [jasmine](https://github.com/pacificbiosciences/jasmine/) | Y | - | Predict 5mC in PacBio HiFi reads [(Release Notes)](https://github.com/PacificBiosciences/jasmine#changelog) |
 | [lima](https://github.com/pacificbiosciences/barcoding/) | Y | - | Demultiplex barcoded samples [(Release Notes)](https://lima.how/changelog.html) |
 | [pbaa](https://github.com/PacificBiosciences/pbAA/) | Y | Y | HiFi specific Amplicon Analysis |
 | [pbbam](https://github.com/pacificbiosciences/pbbam/) | Y | Y | BAM C++ library, tools are now in [**pbtk**](https://github.com/pacificbiosciences/pbtk/) [(Release Notes)](https://github.com/PacificBiosciences/pbbam/blob/develop/CHANGELOG.md) |
@@ -67,14 +66,12 @@ per-record or per-ZMW information
 | [pbcore](https://github.com/pacificbiosciences/pbcore/) | Y | Y | Python library for reading and writing data files |
 | [pbcoretools](https://github.com/pacificbiosciences/pbcoretools/) | Y | Y | CLI tools and add-ons for PacBio's core APIs (incl `dataset`) |
 | [pbfusion](https://github.com/pacificBiosciences/pbfusion/) | Y | - | A fusion gene detection tool for all Iso-Seq data types [(Release Notes)](https://github.com/PacificBiosciences/pbfusion#changelog) |
-| [pbipa](https://github.com/PacificBiosciences/pbipa) | Y | - | Construct very contiguous, high quality de novo genome assemblies using the IPA HiFi assembler. [(Release Notes)](https://github.com/PacificBiosciences/pbipa/blob/master/CHANGELOG.md)  |
 | [pbmarkdup](https://github.com/PacificBiosciences/pbmarkdup/) | Y | - | Mark duplicate reads from PacBio sequencing of an amplified library [(Release Notes)](https://github.com/PacificBiosciences/pbmarkdup/#changelog) |
 | [pbmm2](https://github.com/PacificBiosciences/pbmm2/) | Y | - | A minimap2 frontend for PacBio native data formats [(Release Notes)](https://github.com/PacificBiosciences/pbmm2/#full-changelog) |
 | [pbpigeon](https://github.com/pacificbiosciences/pigeon/) | Y | - | PacBio transcript toolkit [(Release Notes)](https://isoseq.how/classification/pigeon-changelog.html)
 | [pbskera](https://github.com/pacificbiosciences/skera/) | Y | - | Read deconcatination [(Release Notes)](https://pacificbiosciences.github.io/skera/changelog.html)
 | [pbsv](https://github.com/pacificbiosciences/pbsv/) | Y | - | Structural variant analysis [(Release Notes)](https://github.com/pacificbiosciences/pbsv/#full-changelog) |
 | [pbtk](https://github.com/pacificbiosciences/pbtk/) | Y | - | PacBio BAM toolkit contains `bam2fasta`, `bam2fastq`, `ccs-kinetics-bystrandify`, `extracthifi`, `pbindex`, `pbindexdump`, `pbmerge`, `zmwfilter` [(Release Notes)](https://github.com/PacificBiosciences/pbtk#changelog) |
-| [recalladapters](https://github.com/pacificbiosciences/recalladapters/) | Y | - | Recall adapters [(Release Notes)](https://github.com/pacificbiosciences/recalladapters/#full-changelog) |
 | [trgt](https://github.com/pacificBiosciences/trgt/) | Y | - | Tandem repeat genotyping and visualization [(Release Notes)](https://github.com/pacificbiosciences/trgt/#full-changelog) |
 
 ### Combo-Packages
